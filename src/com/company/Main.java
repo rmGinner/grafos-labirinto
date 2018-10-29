@@ -21,7 +21,7 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) {
-        identifyStartAndEnd("caso50a.txt");
+        identifyStartAndEnd("caso4.txt");
     }
 
     private static void identifyStartAndEnd(String fileName){
@@ -32,7 +32,7 @@ public class Main {
         Boolean downBit;
         Boolean leftBit;
 
-        try(Scanner sc = new Scanner(new File(fileName), Charset.forName("utf8"))){
+        try(Scanner sc = new Scanner(new File(fileName))){
             Long totalLines = Files.newBufferedReader(Paths.get(fileName), Charset.forName("utf8")).lines().count() - 1;
 
             sc.nextLine();
@@ -72,7 +72,7 @@ public class Main {
                                     startCharPosition = i;
                                 } else {
                                     endLinePosition = line;
-                                    endCharPosition = i;
+                                    endCharPosition = 0;
                                 }
                             }
                         }
@@ -85,7 +85,7 @@ public class Main {
                                     startCharPosition = i;
                                 } else {
                                     endLinePosition = line;
-                                    endCharPosition = i;
+                                    endCharPosition = letters.length - 1;
                                 }
                             }
                         }
