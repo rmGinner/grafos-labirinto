@@ -24,13 +24,13 @@ public class Main {
         identifyStartAndEnd("caso4.txt");
     }
 
+    private static void createGraphStructure(){
+
+
+    }
     private static void identifyStartAndEnd(String fileName){
         Integer line = 0, startLinePosition = null, startCharPosition = null,endLinePosition = null, endCharPosition = null;
         String[] letters;
-        Boolean upBit;
-        Boolean rightBit;
-        Boolean downBit;
-        Boolean leftBit;
 
         try(Scanner sc = new Scanner(new File(fileName))){
             Long totalLines = Files.newBufferedReader(Paths.get(fileName), Charset.forName("utf8")).lines().count() - 1;
