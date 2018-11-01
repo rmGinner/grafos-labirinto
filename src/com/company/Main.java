@@ -1,9 +1,12 @@
 package com.company;
 
+import com.company.graphsapi.Digraph;
+import com.company.graphsapi.Graph;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -14,31 +17,49 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static Scanner file;
     /**
      * For file "caso25a.txt"
      *
      * Start point is in: line 8 - column 0
      * Final point is in: line 25 - column 17
      * */
-    public static void main(String[] args) {
-        identifyStartAndEnd("caso4.txt");
+    public static void main(String[] args) throws IOException {
+        String fileName = "caso4.txt";
+
+
+        readFileToScanner(fileName);
+        identifyStartAndEnd(fileName);
+
+        Digraph digraph = new Digraph(Integer.valueOf(fileName.split("caso")[1].split(".")[0]));
+
+
     }
 
     private static void createGraphStructure(){
 
 
     }
-    private static void identifyStartAndEnd(String fileName){
+
+    private static void readFileToScanner(String fileName) throws FileNotFoundException {
+        try(Scanner sc = new Scanner(new File(fileName))){
+            file = sc;
+        } catch (FileNotFoundException e) {
+            throw  e;
+        }
+    }
+
+    private static void identifyStartAndEnd(String fileName) throws IOException {
         Integer line = 0, startLinePosition = null, startCharPosition = null,endLinePosition = null, endCharPosition = null;
         String[] letters;
+        file.reset();
 
-        try(Scanner sc = new Scanner(new File(fileName))){
             Long totalLines = Files.newBufferedReader(Paths.get(fileName), Charset.forName("utf8")).lines().count() - 1;
 
-            sc.nextLine();
+            file.nextLine();
 
-            while (sc.hasNextLine()){
-                String stringLine = sc.nextLine();
+            while (file.hasNextLine()){
+                String stringLine = file.nextLine();
                 letters = stringLine.split(" ");
 
                 for(int i = 0; i < letters.length; i++){
@@ -101,9 +122,6 @@ public class Main {
                 }
                 line++;
             }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
 
         System.out.println("Start Line Position: " + startLinePosition + "\n");
         System.out.println("Start Char Position: " + startCharPosition+ "\n");
