@@ -80,6 +80,21 @@ public class Digraph {
 		}
 	}
 
+	public void setValueToVertex(Integer vertex, Character value){
+		adj[vertex].setCode(value);
+	}
+
+	public Character getCodeFromVertex(Integer vertex){
+		return adj[vertex].getCode();
+	}
+
+	public void printVertexes(){
+		for (int i = 0; i < V; i++){
+			System.out.println("Vertex:" + i + "\n");
+			System.out.println("Code:" + adj[i].getCode() + "\n\n");
+		}
+	}
+
 	/**
 	 * Initializes a digraph from the specified input stream. The format is the
 	 * number of vertices <em>V</em>, followed by the number of edges

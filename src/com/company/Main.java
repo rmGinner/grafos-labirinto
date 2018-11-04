@@ -18,6 +18,8 @@ import java.util.Scanner;
 public class Main {
 
     private static Scanner file;
+
+    private enum DIRECTION{NORTH, EAST, SOUTH, WEST};
     /**
      * For file "caso25a.txt"
      *
@@ -25,34 +27,121 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso4.txt";
+        String fileName = "caso25a.txt";
 
 
         readFileToScanner(fileName);
-        identifyStartAndEnd(fileName);
 
-        Digraph digraph = new Digraph(Integer.valueOf(fileName.split("caso")[1].split(".")[0]));
+        Position position = new Position();
+        identifyStartAndEnd(fileName,position);
 
-
-    }
-
-    private static void createGraphStructure(){
-
+        createGraphStructure(fileName,position);
 
     }
+
+    private static void createGraphStructure(String fileName, Position position) throws IOException {
+        readFileToScanner(fileName);
+        Integer n = Integer.valueOf(file.nextLine().trim().split(" ")[0]);
+        Digraph digraph = new Digraph(n * n);
+
+        int i = 0;
+
+        while (file.hasNextLine()){
+            for(String ch : file.nextLine().split(" ")){
+                digraph.setValueToVertex(i,ch.trim().charAt(0));
+                i++;
+            }
+        }
+
+        Integer positionRunner = position.getStartPosition();
+        DIRECTION direction = DIRECTION.NORTH;
+
+        for(int j = 0; j <digraph.V();j++){
+            direction = getNextDirectionBy(hexToBin(String.valueOf(digraph.getCodeFromVertex(positionRunner))), direction);
+
+            if(direction.equals(DIRECTION.NORTH)){
+                digraph.addEdge(positionRunner, positionRunner - n);
+                positionRunner -= n;
+                direction = DIRECTION.SOUTH;
+            }else if(direction.equals(DIRECTION.EAST)){
+                digraph.addEdge(positionRunner, positionRunner + 1);
+                positionRunner += 1;
+                direction = DIRECTION.WEST;
+            }else if(direction.equals(DIRECTION.SOUTH)){
+                digraph.addEdge(positionRunner, positionRunner + n);
+                positionRunner += n;
+                direction = DIRECTION.NORTH;
+            }else if(direction.equals(DIRECTION.WEST)){
+                digraph.addEdge(positionRunner, positionRunner - 1);
+                positionRunner -= 1;
+                direction = DIRECTION.EAST;
+            }else{
+                throw  new IllegalArgumentException("Posição corrente retornou null;");
+            }
+
+        }
+
+
+        for(int j = 0; j < digraph.V();j++){
+            for(Integer v : digraph.adj(j)){
+                System.out.printf("%d -> %d\n",j,v);
+            }
+        }
+
+        //digraph.printVertexes();
+    }
+
+    private static DIRECTION getNextDirectionBy(String vertexBinValue, DIRECTION currentDirection){
+        //North
+        if(currentDirection.equals(DIRECTION.NORTH)){
+            if(vertexBinValue.charAt(1) == '0'){
+                return DIRECTION.EAST;
+            }else if(vertexBinValue.charAt(2) == '0'){
+                return DIRECTION.SOUTH;
+            }else if(vertexBinValue.charAt(3) == '0'){
+                return DIRECTION.WEST;
+            }
+        //East
+        }else if(currentDirection.equals(DIRECTION.EAST)){
+            if(vertexBinValue.charAt(0) == '0'){
+                return DIRECTION.NORTH;
+            }else if(vertexBinValue.charAt(2) == '0'){
+                return DIRECTION.SOUTH;
+            }else if(vertexBinValue.charAt(3) == '0'){
+                return DIRECTION.WEST;
+            }
+        //South
+        }else if(currentDirection.equals(DIRECTION.SOUTH)){
+            if(vertexBinValue.charAt(0) == '0'){
+                return DIRECTION.NORTH;
+            }else if(vertexBinValue.charAt(1) == '0'){
+                return DIRECTION.EAST;
+            }else if(vertexBinValue.charAt(3) == '0'){
+                return DIRECTION.WEST;
+            }
+        //West
+        }else{
+            if(vertexBinValue.charAt(0) == '0'){
+                return DIRECTION.NORTH;
+            }else if(vertexBinValue.charAt(1) == '0'){
+                return DIRECTION.EAST;
+            }else if(vertexBinValue.charAt(2) == '0'){
+                return DIRECTION.SOUTH;
+            }
+        }
+
+        return null;
+    }
+
 
     private static void readFileToScanner(String fileName) throws FileNotFoundException {
-        try(Scanner sc = new Scanner(new File(fileName))){
-            file = sc;
-        } catch (FileNotFoundException e) {
-            throw  e;
-        }
+        file = new Scanner(new File(fileName));
     }
 
-    private static void identifyStartAndEnd(String fileName) throws IOException {
+    private static void identifyStartAndEnd(String fileName, Position position) throws IOException {
         Integer line = 0, startLinePosition = null, startCharPosition = null,endLinePosition = null, endCharPosition = null;
         String[] letters;
-        file.reset();
+        readFileToScanner(fileName);
 
             Long totalLines = Files.newBufferedReader(Paths.get(fileName), Charset.forName("utf8")).lines().count() - 1;
 
@@ -69,6 +158,9 @@ public class Main {
                         if(hexToBin(letters[i]).charAt(0) == '0'){
                             startLinePosition = line;
                             startCharPosition = i;
+
+                            position.setStartPosition((line + 1) * (i + 1) - 1);
+
                         }
                      //Is last line?
                     }else if(line == totalLines.intValue() - 1){
@@ -78,9 +170,13 @@ public class Main {
                                 if (startCharPosition == null && startLinePosition == null) {
                                     startLinePosition = line;
                                     startCharPosition = i;
+
+                                    position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = i;
+
+                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
                             }
                         }
@@ -91,9 +187,13 @@ public class Main {
                                 if (startCharPosition == null && startLinePosition == null) {
                                     startLinePosition = line;
                                     startCharPosition = i;
+
+                                    position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = 0;
+
+                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
                             }
                         }
@@ -104,9 +204,13 @@ public class Main {
                                 if (startCharPosition == null && startLinePosition == null) {
                                     startLinePosition = line;
                                     startCharPosition = i;
+
+                                    position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = letters.length - 1;
+
+                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
                             }
                         }

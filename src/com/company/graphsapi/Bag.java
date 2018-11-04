@@ -53,6 +53,7 @@ import java.util.NoSuchElementException;
 public class Bag<Item> implements Iterable<Item> {
     private Node<Item> first;    // beginning of bag
     private int n;               // number of elements in bag
+    private Character code;
 
     // helper linked list class
     private static class Node<Item> {
@@ -66,6 +67,14 @@ public class Bag<Item> implements Iterable<Item> {
     public Bag() {
         first = null;
         n = 0;
+    }
+
+    /**
+     * Initializes an empty bag.
+     */
+    public Bag(Character code) {
+        this();
+        this.code = code;
     }
 
     /**
@@ -147,4 +156,11 @@ public class Bag<Item> implements Iterable<Item> {
         }
     }
 
+    public void setCode(Character code){
+        this.code = code;
+    }
+
+    public Character getCode() {
+        return code;
+    }
 }
