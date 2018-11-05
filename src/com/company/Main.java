@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.graphsapi.Digraph;
 import com.company.graphsapi.Graph;
+import com.company.graphsapi.Queue;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
@@ -27,7 +28,7 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso25a.txt";
+        String fileName = "caso4.txt";
 
 
         readFileToScanner(fileName);
@@ -54,31 +55,32 @@ public class Main {
         }
 
         Integer positionRunner = position.getStartPosition();
-        DIRECTION direction = DIRECTION.NORTH;
 
-        for(int j = 0; j <digraph.V();j++){
-            direction = getNextDirectionBy(hexToBin(String.valueOf(digraph.getCodeFromVertex(positionRunner))), direction);
 
-            if(direction.equals(DIRECTION.NORTH)){
-                digraph.addEdge(positionRunner, positionRunner - n);
-                positionRunner -= n;
-                direction = DIRECTION.SOUTH;
-            }else if(direction.equals(DIRECTION.EAST)){
-                digraph.addEdge(positionRunner, positionRunner + 1);
-                positionRunner += 1;
-                direction = DIRECTION.WEST;
-            }else if(direction.equals(DIRECTION.SOUTH)){
-                digraph.addEdge(positionRunner, positionRunner + n);
-                positionRunner += n;
-                direction = DIRECTION.NORTH;
-            }else if(direction.equals(DIRECTION.WEST)){
-                digraph.addEdge(positionRunner, positionRunner - 1);
-                positionRunner -= 1;
-                direction = DIRECTION.EAST;
-            }else{
-                throw  new IllegalArgumentException("Posição corrente retornou null;");
+        for(int j = 0; j < digraph.V();j++){
+            Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(digraph.getCodeFromVertex(j))));
+
+            for(DIRECTION direction : directions){
+                if(direction.equals(DIRECTION.NORTH)) {
+                    if((j / n) >= 0){
+                        digraph.addEdge(j, j / n);
+                    }
+                }else if(direction.equals(DIRECTION.EAST)){
+                    if((j + 1) < (n * n)) {
+                        digraph.addEdge(j, j + 1);
+                    }
+                }else if(direction.equals(DIRECTION.SOUTH)){
+                    if((j * n) < (n * n)) {
+                        digraph.addEdge(j, j * n);
+                    }
+                }else if(direction.equals(DIRECTION.WEST)){
+                    if((j - 1) >= n) {
+                        digraph.addEdge(j, j - 1);
+                    }
+                }else{
+                    throw new IllegalArgumentException("Direção inválida.");
+                }
             }
-
         }
 
 
@@ -91,46 +93,26 @@ public class Main {
         //digraph.printVertexes();
     }
 
-    private static DIRECTION getNextDirectionBy(String vertexBinValue, DIRECTION currentDirection){
-        //North
-        if(currentDirection.equals(DIRECTION.NORTH)){
-            if(vertexBinValue.charAt(1) == '0'){
-                return DIRECTION.EAST;
-            }else if(vertexBinValue.charAt(2) == '0'){
-                return DIRECTION.SOUTH;
-            }else if(vertexBinValue.charAt(3) == '0'){
-                return DIRECTION.WEST;
-            }
-        //East
-        }else if(currentDirection.equals(DIRECTION.EAST)){
-            if(vertexBinValue.charAt(0) == '0'){
-                return DIRECTION.NORTH;
-            }else if(vertexBinValue.charAt(2) == '0'){
-                return DIRECTION.SOUTH;
-            }else if(vertexBinValue.charAt(3) == '0'){
-                return DIRECTION.WEST;
-            }
-        //South
-        }else if(currentDirection.equals(DIRECTION.SOUTH)){
-            if(vertexBinValue.charAt(0) == '0'){
-                return DIRECTION.NORTH;
-            }else if(vertexBinValue.charAt(1) == '0'){
-                return DIRECTION.EAST;
-            }else if(vertexBinValue.charAt(3) == '0'){
-                return DIRECTION.WEST;
-            }
-        //West
-        }else{
-            if(vertexBinValue.charAt(0) == '0'){
-                return DIRECTION.NORTH;
-            }else if(vertexBinValue.charAt(1) == '0'){
-                return DIRECTION.EAST;
-            }else if(vertexBinValue.charAt(2) == '0'){
-                return DIRECTION.SOUTH;
-            }
+    private static Queue<DIRECTION> getNextDirectionBy(String vertexBinValue){
+        Queue<DIRECTION> queue = new Queue<>();
+
+        if(vertexBinValue.charAt(0) == '0'){
+            queue.enqueue(DIRECTION.NORTH);
         }
 
-        return null;
+        if(vertexBinValue.charAt(1) == '0'){
+            queue.enqueue(DIRECTION.EAST);
+        }
+
+        if(vertexBinValue.charAt(2) == '0'){
+            queue.enqueue(DIRECTION.SOUTH);
+        }
+
+        if(vertexBinValue.charAt(3) == '0'){
+            queue.enqueue(DIRECTION.WEST);
+        }
+
+        return queue;
     }
 
 

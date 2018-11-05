@@ -2,15 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5cbca0-8ea8-4924-8048-0bd749e4f550" name="Default" comment="Adjusts">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/graphsapi/AppDijkstraCompleto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/graphsapi/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/graphsapi/Bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" afterDir="false" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main$DIRECTION.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main$DIRECTION.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstDirectedPaths.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstDirectedPaths.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstPaths.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstPaths.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Cycle.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Cycle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstDirectedPaths.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstDirectedPaths.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstOrder.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Digraph.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Digraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedDFS.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedDFS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Edge.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Edge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/EdgeWeightedGraph.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/EdgeWeightedGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Graph.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Graph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/In.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/In.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ$HeapIterator.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ$HeapIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/KruskalMST.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/KruskalMST.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ$HeapIterator.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ$HeapIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MiniES.pdf" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MiniES.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Out.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Out.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/PrimMST.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/PrimMST.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFPaths.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFPaths.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFS.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdIn.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdIn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdOut.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdOut.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolDigraph.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolDigraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolGraph.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Topological.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Topological.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/UF.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/UF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/WebCrawler.class" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/WebCrawler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MiniES.svg" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MiniES.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/es.txt" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/es.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/jobs.txt" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/jobs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/meuGrafo.txt" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/meuGrafo.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/tinyDAG.txt" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/tinyDAG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/tinyDG.txt" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/tinyDG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/tinyEWG.txt" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/tinyEWG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,62 +131,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalcBits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/CalcBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="65" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="65" />
+            <state relative-caret-position="0">
+              <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8061#8062#0" expanded="true" />
-                <element signature="e#8145#8146#0" expanded="true" />
+                <element signature="e#8154#8155#0" expanded="true" />
+                <element signature="e#8238#8239#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="caso4.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caso4.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Position.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Digraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="198" selection-start-line="198" selection-end-line="198" />
-              <folding>
-                <element signature="e#2726#2727#0" expanded="true" />
-                <element signature="e#2743#2744#0" expanded="true" />
-                <element signature="e#2813#2814#0" expanded="true" />
-                <element signature="e#2830#2831#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="DepthFirstDirectedPaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstDirectedPaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bag.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Bag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="160" selection-start-line="160" selection-end-line="160" />
+            <state relative-caret-position="2265">
+              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding>
-                <element signature="e#4226#4227#0" expanded="true" />
-                <element signature="e#4292#4293#0" expanded="true" />
-                <element signature="e#4319#4320#0" expanded="true" />
+                <element signature="e#4222#4223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,10 +219,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>9</find>
+      <find>getNextDirectionBy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -191,17 +254,30 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -221,11 +297,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="grafos-labirinto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grafos-labirinto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="graphsapi" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,44 +341,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="grafos-labirinto" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="grafos-labirinto" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <option name="HEIGHT" value="0" />
+      <module />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -305,15 +415,48 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method v="2">
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -331,6 +474,7 @@
       <workItem from="1540831643575" duration="120000" />
       <workItem from="1541086703099" duration="1420000" />
       <workItem from="1541183397501" duration="11525000" />
+      <workItem from="1541454952765" duration="2423000" />
     </task>
     <task id="LOCAL-00001" summary="Adjusts">
       <created>1540831699318</created>
@@ -343,40 +487,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29017000" />
+    <option name="totallyTimeSpent" value="31440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1282" height="999" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32131147" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3147541" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,36 +532,38 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>62</line>
+          <line>60</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>66</line>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>70</line>
+          <line>69</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
           <line>73</line>
           <properties />
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>75</line>
+          <line>77</line>
           <properties />
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="19" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -471,39 +615,85 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/CalcBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caso4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2820">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#4222#4223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8154#8155#0" expanded="true" />
+            <element signature="e#8238#8239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Scanner.java" />
     <entry file="jar://$PROJECT_DIR$/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31425">
-          <caret line="2162" selection-start-line="2162" selection-end-line="2162" />
+          <caret line="2162" column="0" lean-forward="false" selection-start-line="2162" selection-start-column="0" selection-end-line="2162" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caso25a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caso50a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caso100a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="81" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caso75a.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -517,88 +707,84 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/EdgeWeightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DigraphGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-428">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/CalcBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="65" />
+        <state relative-caret-position="0">
+          <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/AppDijkstraCompleto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caso4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/AppDijkstraCompleto.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        <state relative-caret-position="2265">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
-            <element signature="e#4226#4227#0" expanded="true" />
-            <element signature="e#4292#4293#0" expanded="true" />
-            <element signature="e#4319#4320#0" expanded="true" />
+            <element signature="e#4222#4223#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstDirectedPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caso4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-          <folding>
-            <element signature="e#2726#2727#0" expanded="true" />
-            <element signature="e#2743#2744#0" expanded="true" />
-            <element signature="e#2813#2814#0" expanded="true" />
-            <element signature="e#2830#2831#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="183">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8061#8062#0" expanded="true" />
-            <element signature="e#8145#8146#0" expanded="true" />
+            <element signature="e#8154#8155#0" expanded="true" />
+            <element signature="e#8238#8239#0" expanded="true" />
           </folding>
         </state>
       </provider>
