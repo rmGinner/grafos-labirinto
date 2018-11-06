@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5cbca0-8ea8-4924-8048-0bd749e4f550" name="Default" comment="Adjusts">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/CalcBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/CalcBits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main$DIRECTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main$DIRECTION.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph$AdjIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph$AdjIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstDirectedPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstDirectedPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Cycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Cycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstDirectedPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstDirectedPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Digraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Digraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator$Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle$Mark.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle$Mark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedDFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/EdgeWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/EdgeWeightedGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/In.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/In.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ$HeapIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/KruskalMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/KruskalMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main$Ponto.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main$Ponto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST$Ponto.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST$Ponto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ$HeapIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Out.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Out.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/PrimMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/PrimMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdRandom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolDigraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolDigraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Topological.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Topological.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/UF.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/UF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/WebCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/WebCrawler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/graphsapi/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/graphsapi/Graph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +26,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="335" />
+          <entry key="java" value="2034" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="335" />
+          <entry key="JAVA" value="2034" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -143,12 +92,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8955#8956#0" expanded="true" />
-                <element signature="e#9039#9040#0" expanded="true" />
+                <element signature="e#9041#9042#0" expanded="true" />
+                <element signature="e#9125#9126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,82 +113,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DirectedDFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caso4.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="e#2725#2726#0" expanded="true" />
-                <element signature="e#2758#2759#0" expanded="true" />
-                <element signature="e#2812#2813#0" expanded="true" />
-                <element signature="e#2847#2848#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2580">
-              <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstDirectedPaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Bag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2265">
-              <caret line="160" selection-start-line="160" selection-end-line="160" />
-              <folding>
-                <element signature="e#4222#4223#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -261,6 +138,9 @@
       <find>getCodeFromVertex</find>
       <find>graph</find>
       <find>position</find>
+      <find>readFileToScanner</find>
+      <find>totalLines</find>
+      <find>vertex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -278,9 +158,9 @@
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/AppDijkstraCompleto.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Bag.java" />
         <option value="$PROJECT_DIR$/src/com/company/Position.java" />
+        <option value="$PROJECT_DIR$/caso25a.txt" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" />
-        <option value="$PROJECT_DIR$/caso25a.txt" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
@@ -331,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541536154044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541539372650" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -438,7 +318,7 @@
       <workItem from="1541454952765" duration="2423000" />
       <workItem from="1541461933002" duration="2448000" />
       <workItem from="1541468439784" duration="2333000" />
-      <workItem from="1541534178928" duration="2531000" />
+      <workItem from="1541534178928" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="Adjusts">
       <created>1540831699318</created>
@@ -451,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38752000" />
+    <option name="totallyTimeSpent" value="41356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-2" width="1280" height="1026" extended-state="6" />
@@ -465,8 +345,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32700893" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2704918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,18 +372,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -613,47 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DirectedDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#2725#2726#0" expanded="true" />
-            <element signature="e#2758#2759#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2847#2848#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstDirectedPaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -671,10 +498,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caso25a.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="156">
+          <caret line="253" column="7" lean-forward="true" selection-start-line="253" selection-start-column="7" selection-end-line="253" selection-end-column="7" />
+          <folding>
+            <element signature="e#8498#8499#0" expanded="true" />
+            <element signature="e#8540#8541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-489">
+          <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -685,14 +530,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caso25a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8955#8956#0" expanded="true" />
-            <element signature="e#9039#9040#0" expanded="true" />
+            <element signature="e#9041#9042#0" expanded="true" />
+            <element signature="e#9125#9126#0" expanded="true" />
           </folding>
         </state>
       </provider>
