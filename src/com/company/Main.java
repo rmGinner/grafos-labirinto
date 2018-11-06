@@ -1,8 +1,6 @@
 package com.company;
 
-import com.company.graphsapi.Digraph;
-import com.company.graphsapi.Graph;
-import com.company.graphsapi.Queue;
+import com.company.graphsapi.*;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
@@ -43,39 +41,36 @@ public class Main {
     private static void createGraphStructure(String fileName, Position position) throws IOException {
         readFileToScanner(fileName);
         Integer n = Integer.valueOf(file.nextLine().trim().split(" ")[0]);
-        Digraph digraph = new Digraph(n * n);
+        Digraph graph = new Digraph(n * n);
 
         int i = 0;
 
         while (file.hasNextLine()){
             for(String ch : file.nextLine().split(" ")){
-                digraph.setValueToVertex(i,ch.trim().charAt(0));
+                graph.setValueToVertex(i,ch.trim().charAt(0));
                 i++;
             }
         }
 
-        Integer positionRunner = position.getStartPosition();
-
-
-        for(int j = 0; j < digraph.V();j++){
-            Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(digraph.getCodeFromVertex(j))));
+        for(int j = 0; j < graph.V();j++){
+            Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(graph.getCodeFromVertex(j))));
 
             for(DIRECTION direction : directions){
                 if(direction.equals(DIRECTION.NORTH)) {
-                    if((j / n) >= 0){
-                        digraph.addEdge(j, j / n);
+                    if((j - n) >= 0){
+                        graph.addEdge(j, j  -  n);
                     }
                 }else if(direction.equals(DIRECTION.EAST)){
                     if((j + 1) < (n * n)) {
-                        digraph.addEdge(j, j + 1);
+                        graph.addEdge(j, j + 1);
                     }
                 }else if(direction.equals(DIRECTION.SOUTH)){
-                    if((j * n) < (n * n)) {
-                        digraph.addEdge(j, j * n);
+                    if((j + n) < (n * n)) {
+                        graph.addEdge(j, j + n);
                     }
                 }else if(direction.equals(DIRECTION.WEST)){
                     if((j - 1) >= n) {
-                        digraph.addEdge(j, j - 1);
+                        graph.addEdge(j, j - 1);
                     }
                 }else{
                     throw new IllegalArgumentException("Direção inválida.");
@@ -84,11 +79,13 @@ public class Main {
         }
 
 
-        for(int j = 0; j < digraph.V();j++){
-            for(Integer v : digraph.adj(j)){
+        DepthFirstDirectedPaths dfs = new DepthFirstDirectedPaths(graph,3);
+        System.out.println(dfs.hasPathTo(12));
+        /*for(int j = 0; j < graph.V();j++){
+            for(Integer v : graph.adj(j)){
                 System.out.printf("%d -> %d\n",j,v);
             }
-        }
+        }*/
 
         //digraph.printVertexes();
     }

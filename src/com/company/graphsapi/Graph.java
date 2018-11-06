@@ -264,4 +264,12 @@ public class Graph {
         StdOut.println(G.toDot());
     }
 
+    public void setValueToVertex(Integer vertex, Character value){
+        adj[vertex].setCode(value);
+    }
+
+    public Character getCodeFromVertex(Integer vertex){
+        return adj[vertex].getCode();
+    }
+
 }
