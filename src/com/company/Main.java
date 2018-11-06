@@ -26,7 +26,7 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso4.txt";
+        String fileName = "caso25a.txt";
 
 
         readFileToScanner(fileName);
@@ -41,7 +41,7 @@ public class Main {
     private static void createGraphStructure(String fileName, Position position) throws IOException {
         readFileToScanner(fileName);
         Integer n = Integer.valueOf(file.nextLine().trim().split(" ")[0]);
-        Digraph graph = new Digraph(n * n);
+        Graph graph = new Graph(n * n);
 
         int i = 0;
 
@@ -56,36 +56,40 @@ public class Main {
             Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(graph.getCodeFromVertex(j))));
 
             for(DIRECTION direction : directions){
-                if(direction.equals(DIRECTION.NORTH)) {
-                    if((j - n) >= 0){
-                        graph.addEdge(j, j  -  n);
+                if(j != position.getStartPosition() && j != position.getEndPosition()) {
+                    if (direction.equals(DIRECTION.NORTH)) {
+                        if ((j - n) >= 0) {
+                            graph.addEdge(j, j - n);
+                        }
+                    } else if (direction.equals(DIRECTION.EAST)) {
+                        if ((j + 1) < (n * n)) {
+                            graph.addEdge(j, j + 1);
+                        }
+                    } else if (direction.equals(DIRECTION.SOUTH)) {
+                        if ((j + n) < (n * n)) {
+                            graph.addEdge(j, j + n);
+                        }
+                    } else if (direction.equals(DIRECTION.WEST)) {
+                        if ((j - 1) >= n) {
+                            graph.addEdge(j, j - 1);
+                        }
+                    } else {
+                        throw new IllegalArgumentException("Direção inválida.");
                     }
-                }else if(direction.equals(DIRECTION.EAST)){
-                    if((j + 1) < (n * n)) {
-                        graph.addEdge(j, j + 1);
-                    }
-                }else if(direction.equals(DIRECTION.SOUTH)){
-                    if((j + n) < (n * n)) {
-                        graph.addEdge(j, j + n);
-                    }
-                }else if(direction.equals(DIRECTION.WEST)){
-                    if((j - 1) >= n) {
-                        graph.addEdge(j, j - 1);
-                    }
-                }else{
-                    throw new IllegalArgumentException("Direção inválida.");
                 }
             }
         }
+        System.out.println(position.getStartPosition());
 
+        System.out.println(position.getEndPosition());
 
-        DepthFirstDirectedPaths bfs = new DepthFirstDirectedPaths(graph,3);
-        System.out.println(bfs.hasPathTo(11));
+        BreadthFirstPaths bfs = new BreadthFirstPaths(graph,position.getStartPosition());
 
-        System.out.println(bfs.pathTo(11));
+        //System.out.println(bfs.hasPathTo(position.getEndPosition()));
+        //System.out.println(bfs.pathTo(position.getEndPosition()));
+        System.out.println(graph.toDot());
 
-
-       /* for(int j = 0; j < graph.V();j++){
+        /*for(int j = 0; j < graph.V();j++){
             for(Integer v : graph.adj(j)){
                 System.out.printf("%d -> %d\n",j,v);
             }
@@ -130,7 +134,7 @@ public class Main {
 
             Long totalLines = Files.newBufferedReader(Paths.get(fileName), Charset.forName("utf8")).lines().count() - 1;
 
-            file.nextLine();
+            String[] heightAndWidth = file.nextLine().split(" ");
 
             while (file.hasNextLine()){
                 String stringLine = file.nextLine();
@@ -144,7 +148,7 @@ public class Main {
                             startLinePosition = line;
                             startCharPosition = i;
 
-                            position.setStartPosition((line + 1) * (i + 1) - 1);
+//                            position.setStartPosition((line + 1) * (i + 1) - 1);
 
                         }
                      //Is last line?
@@ -156,12 +160,12 @@ public class Main {
                                     startLinePosition = line;
                                     startCharPosition = i;
 
-                                    position.setStartPosition((line + 1) * (i + 1) - 1);
+                                    //position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = i;
 
-                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
+//                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
                             }
                         }
@@ -173,12 +177,12 @@ public class Main {
                                     startLinePosition = line;
                                     startCharPosition = i;
 
-                                    position.setStartPosition((line + 1) * (i + 1) - 1);
+                                    //position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = 0;
 
-                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
+                                    //position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
                             }
                         }
@@ -190,12 +194,12 @@ public class Main {
                                     startLinePosition = line;
                                     startCharPosition = i;
 
-                                    position.setStartPosition((line + 1) * (i + 1) - 1);
+                                   // position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = letters.length - 1;
 
-                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
+                                  //  position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
                             }
                         }
@@ -211,6 +215,9 @@ public class Main {
                 }
                 line++;
             }
+
+            position.setStartPosition((startLinePosition * Integer.valueOf(heightAndWidth[0].trim())) + startCharPosition);
+        position.setEndPosition((endLinePosition * Integer.valueOf(heightAndWidth[0].trim())) + endCharPosition);
 
         System.out.println("Start Line Position: " + startLinePosition + "\n");
         System.out.println("Start Char Position: " + startCharPosition+ "\n");
