@@ -79,12 +79,18 @@ public class Main {
         }
 
 
-        DepthFirstDirectedPaths dfs = new DepthFirstDirectedPaths(graph,3);
-        System.out.println(dfs.hasPathTo(12));
-        /*for(int j = 0; j < graph.V();j++){
+        DepthFirstDirectedPaths bfs = new DepthFirstDirectedPaths(graph,3);
+        System.out.println(bfs.hasPathTo(11));
+
+        System.out.println(bfs.pathTo(11));
+
+
+       /* for(int j = 0; j < graph.V();j++){
             for(Integer v : graph.adj(j)){
                 System.out.printf("%d -> %d\n",j,v);
             }
+
+            //System.out.printf("%d value %s \n", j, graph.getCodeFromVertex(j));
         }*/
 
         //digraph.printVertexes();
