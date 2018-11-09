@@ -12,6 +12,7 @@ import java.math.BigInteger;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -26,7 +27,7 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso25a.txt";
+        String fileName = "caso500a.txt";
 
 
         readFileToScanner(fileName);
@@ -85,9 +86,9 @@ public class Main {
 
         BreadthFirstPaths bfs = new BreadthFirstPaths(graph,position.getStartPosition());
 
-        //System.out.println(bfs.hasPathTo(position.getEndPosition()));
-        //System.out.println(bfs.pathTo(position.getEndPosition()));
-        System.out.println(graph.toDot());
+        System.out.println(bfs.hasPathTo(position.getEndPosition()));
+        System.out.println(bfs.pathTo(position.getEndPosition()));
+        //System.out.println(graph.toDot());
 
         /*for(int j = 0; j < graph.V();j++){
             for(Integer v : graph.adj(j)){
@@ -155,8 +156,8 @@ public class Main {
                     }else if(line == totalLines.intValue() - 1){
                         //Down bit
                         if(hexToBin(letters[i]).charAt(2) == '0'){
-                            if (!line.equals(startLinePosition) && !Integer.valueOf(i).equals(startCharPosition)) {
-                                if (startCharPosition == null && startLinePosition == null) {
+                            if (!line.equals(startLinePosition)) {
+                                if (startCharPosition == null) {
                                     startLinePosition = line;
                                     startCharPosition = i;
 
@@ -167,32 +168,34 @@ public class Main {
 
 //                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
+                            }else if(Objects.nonNull(startCharPosition)){
+                                endLinePosition = line;
+                                endCharPosition = i;
                             }
                         }
                     }else{
                         //Left bit
                         if(hexToBin(letters[0]).charAt(3) == '0'){
-                            if(!line.equals(startLinePosition) && !Integer.valueOf(i).equals(startCharPosition)) {
-                                if (startCharPosition == null && startLinePosition == null) {
+                            if(!line.equals(startLinePosition)) {
+                                if (startCharPosition == null ) {
                                     startLinePosition = line;
-                                    startCharPosition = i;
-
-                                    //position.setStartPosition((line + 1) * (i + 1) - 1);
+                                    startCharPosition = 0;
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = 0;
-
-                                    //position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
+                            }else if(Objects.nonNull(startCharPosition)){
+                                endLinePosition = line;
+                                endCharPosition = 0;
                             }
                         }
 
                         //Right bit
                         if(hexToBin(letters[letters.length - 1]).charAt(1) == '0') {
-                            if (!line.equals(startLinePosition) && !Integer.valueOf(i).equals(startCharPosition)) {
+                            if (!line.equals(startLinePosition)) {
                                 if (startCharPosition == null && startLinePosition == null) {
                                     startLinePosition = line;
-                                    startCharPosition = i;
+                                    startCharPosition = letters.length - 1;
 
                                    // position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
@@ -201,6 +204,9 @@ public class Main {
 
                                   //  position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
                                 }
+                            }else if(Objects.nonNull(startCharPosition)){
+                                endLinePosition = line;
+                                endCharPosition = letters.length - 1;
                             }
                         }
                     }
