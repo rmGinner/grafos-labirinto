@@ -27,7 +27,7 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso4.txt";
+        String fileName = "caso500a.txt";
 
 
         readFileToScanner(fileName);
@@ -57,7 +57,7 @@ public class Main {
             Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(graph.getCodeFromVertex(j))));
 
             for(DIRECTION direction : directions){
-                if(j != position.getStartPosition() && j != position.getEndPosition()) {
+                if(j != position.getStartPosition() || j != position.getEndPosition()) {
                     if (direction.equals(DIRECTION.NORTH)) {
                         if ((j - n) >= 0) {
                             graph.addEdge(j, j - n);
@@ -86,9 +86,9 @@ public class Main {
 
         BreadthFirstPaths bfs = new BreadthFirstPaths(graph,position.getStartPosition());
 
-        //System.out.println(bfs.hasPathTo(position.getEndPosition()));
-        //System.out.println(bfs.pathTo(position.getEndPosition()));
-        System.out.println(graph.toDot());
+        System.out.println(bfs.hasPathTo(position.getEndPosition()));
+        System.out.println(bfs.pathTo(position.getEndPosition()));
+        //System.out.println(graph.toDot());
 
         /*for(int j = 0; j < graph.V();j++){
             for(Integer v : graph.adj(j)){
