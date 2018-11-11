@@ -27,7 +27,7 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso500a.txt";
+        String fileName = "caso4.txt";
         Position position = new Position();
 
         readFileToScanner(fileName);
@@ -40,7 +40,7 @@ public class Main {
             Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(graph.getCodeFromVertex(j))));
 
             for(DIRECTION direction : directions){
-                if(j != position.getStartPosition() || j != position.getEndPosition()) {
+                if(j != position.getEndPosition()) {
                     if (direction.equals(DIRECTION.NORTH)) {
                         if ((j - n) >= 0) {
                             graph.addEdge(j, j - n);
