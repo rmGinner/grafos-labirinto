@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5cbca0-8ea8-4924-8048-0bd749e4f550" name="Default" comment="Adjusts">
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/graphsapi/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/graphsapi/Graph.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" afterDir="false" />
+>>>>>>> Stashed changes
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+>>>>>>> hot-fixes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +36,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="335" />
+          <entry key="java" value="2034" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="335" />
+          <entry key="JAVA" value="2034" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -51,38 +62,51 @@
     <session id="-735506857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
+<<<<<<< HEAD
+          <entry key="project.open.time.33" value="1" />
+=======
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="5" />
+>>>>>>> hot-fixes
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3658" />
+<<<<<<< HEAD
+          <entry key="java" value="2721" />
+          <entry key="txt" value="41" />
+=======
+          <entry key="java" value="3241" />
           <entry key="txt" value="25" />
+>>>>>>> hot-fixes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3658" />
+<<<<<<< HEAD
+          <entry key="JAVA" value="2721" />
+          <entry key="PLAIN_TEXT" value="41" />
+=======
+          <entry key="JAVA" value="3241" />
           <entry key="PLAIN_TEXT" value="25" />
+>>>>>>> hot-fixes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="9" />
+          <entry key="java" value="8" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -93,17 +117,56 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+            <state relative-caret-position="135">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+=======
+            <state relative-caret-position="188">
+              <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#11335#11336#0" expanded="true" />
-                <element signature="e#11419#11420#0" expanded="true" />
+                <element signature="e#9041#9042#0" expanded="true" />
+                <element signature="e#9125#9126#0" expanded="true" />
+=======
+            <state relative-caret-position="50">
+              <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#11406#11407#0" expanded="true" />
+                <element signature="e#11490#11491#0" expanded="true" />
+>>>>>>> hot-fixes
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/caso25a.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/caso4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+=======
+        <entry file="file://$PROJECT_DIR$/caso4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+>>>>>>> hot-fixes
             </state>
           </provider>
         </entry>
@@ -125,7 +188,9 @@
       <find>getCodeFromVertex</find>
       <find>graph</find>
       <find>position</find>
-      <find>hexToBin</find>
+      <find>readFileToScanner</find>
+      <find>totalLines</find>
+      <find>vertex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,10 +207,14 @@
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/AppDijkstraCompleto.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Bag.java" />
         <option value="$PROJECT_DIR$/src/com/company/Position.java" />
+        <option value="$PROJECT_DIR$/caso25a.txt" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/caso25a.txt" />
         <option value="$PROJECT_DIR$/caso4.txt" />
+>>>>>>> hot-fixes
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
@@ -156,17 +225,40 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< Updated upstream
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="1440" />
+    <option name="y" value="-2" />
+    <option name="width" value="1280" />
+    <option name="height" value="1026" />
+=======
   <component name="ProjectFrameBounds" extendedState="7">
+=======
+>>>>>>> hot-fixes
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+=======
+>>>>>>> hot-fixes
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+      <pane id="PackagesPane" />
+>>>>>>> Stashed changes
+=======
+      <pane id="PackagesPane" />
+>>>>>>> hot-fixes
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,29 +266,24 @@
               <item name="grafos-labirinto" type="b2602c69:ProjectViewProjectNode" />
               <item name="grafos-labirinto" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="grafos-labirinto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grafos-labirinto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grafos-labirinto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grafos-labirinto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541896812115" />
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541539372650" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541634086899" />
+>>>>>>> Stashed changes
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541895555455" />
+>>>>>>> hot-fixes
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -302,10 +389,18 @@
       <workItem from="1541183397501" duration="11525000" />
       <workItem from="1541454952765" duration="2423000" />
       <workItem from="1541461933002" duration="2448000" />
+<<<<<<< Updated upstream
       <workItem from="1541468439784" duration="2333000" />
+<<<<<<< HEAD
+      <workItem from="1541534178928" duration="5135000" />
+=======
+      <workItem from="1541468439784" duration="2471000" />
+      <workItem from="1541633804281" duration="236000" />
+>>>>>>> Stashed changes
+=======
       <workItem from="1541534178928" duration="2531000" />
       <workItem from="1541890834503" duration="4566000" />
-      <workItem from="1541897453100" duration="1504000" />
+>>>>>>> hot-fixes
     </task>
     <task id="LOCAL-00001" summary="Adjusts">
       <created>1540831699318</created>
@@ -314,24 +409,50 @@
       <option name="project" value="LOCAL" />
       <updated>1540831699319</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00002" summary="Corrigido bug da criação das arestas.">
+      <created>1541470901105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541470901105</updated>
+=======
     <task id="LOCAL-00002" summary="Adjusts">
       <created>1541895166894</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1541895166894</updated>
+>>>>>>> hot-fixes
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47590000" />
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="41356000" />
+=======
+    <option name="totallyTimeSpent" value="46080000" />
+>>>>>>> hot-fixes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26256078" />
+=======
+    <option name="totallyTimeSpent" value="36595000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+>>>>>>> Stashed changes
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+>>>>>>> hot-fixes
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,16 +460,31 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< Updated upstream
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+=======
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3262295" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34918034" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
+>>>>>>> Stashed changes
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2704918" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3262295" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34918034" />
+>>>>>>> hot-fixes
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32924107" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,10 +503,89 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrigido bug da criação das arestas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrigido bug da criação das arestas." />
+=======
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adjusts" />
     <option name="LAST_COMMIT_MESSAGE" value="Adjusts" />
+>>>>>>> hot-fixes
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+<<<<<<< HEAD
+          <line>64</line>
+=======
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>65</line>
+>>>>>>> hot-fixes
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+>>>>>>> Stashed changes
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -472,38 +687,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caso25a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2924">
-          <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstDirectedPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
+        <state relative-caret-position="975">
           <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+          <folding>
+            <element signature="e#4222#4223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="253" column="7" lean-forward="true" selection-start-line="253" selection-start-column="7" selection-end-line="253" selection-end-column="7" />
+          <folding>
+            <element signature="e#8498#8499#0" expanded="true" />
+            <element signature="e#8540#8541#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/caso25a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+>>>>>>> hot-fixes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-489">
+          <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
+=======
+        <state relative-caret-position="1411">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#2725#2726#0" expanded="true" />
+            <element signature="e#2758#2759#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+          </folding>
+>>>>>>> hot-fixes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="285">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+=======
+        <state relative-caret-position="2924">
+          <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
+>>>>>>> hot-fixes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caso4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+=======
+        <state relative-caret-position="1105">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+>>>>>>> hot-fixes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="516">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+=======
         <state relative-caret-position="2567">
           <caret line="160" selection-start-line="160" selection-end-line="160" />
+          <folding>
+            <element signature="e#4222#4223#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -535,24 +813,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+>>>>>>> hot-fixes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caso4.txt">
+    <entry file="file://$PROJECT_DIR$/caso25a.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+=======
         <state relative-caret-position="17">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+>>>>>>> hot-fixes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+        <state relative-caret-position="135">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+=======
+        <state relative-caret-position="188">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11335#11336#0" expanded="true" />
-            <element signature="e#11419#11420#0" expanded="true" />
+            <element signature="e#9041#9042#0" expanded="true" />
+            <element signature="e#9125#9126#0" expanded="true" />
+=======
+        <state relative-caret-position="50">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11406#11407#0" expanded="true" />
+            <element signature="e#11490#11491#0" expanded="true" />
+>>>>>>> hot-fixes
           </folding>
         </state>
       </provider>

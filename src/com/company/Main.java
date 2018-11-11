@@ -27,37 +27,20 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso4.txt";
-
+        String fileName = "caso500a.txt";
+        Position position = new Position();
 
         readFileToScanner(fileName);
-
-        Position position = new Position();
         identifyStartAndEnd(fileName,position);
-
         createGraphStructure(fileName,position);
-
     }
 
-    private static void createGraphStructure(String fileName, Position position) throws IOException {
-        readFileToScanner(fileName);
-        Integer n = Integer.valueOf(file.nextLine().trim().split(" ")[0]);
-        Graph graph = new Graph(n * n);
-
-        int i = 0;
-
-        while (file.hasNextLine()){
-            for(String ch : file.nextLine().split(" ")){
-                graph.setValueToVertex(i,ch.trim().charAt(0));
-                i++;
-            }
-        }
-
+    private static void addEdgesToGraph(Graph graph, Position position, Integer n){
         for(int j = 0; j < graph.V();j++){
             Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(graph.getCodeFromVertex(j))));
 
             for(DIRECTION direction : directions){
-                if(j != position.getStartPosition() && j != position.getEndPosition()) {
+                if(j != position.getStartPosition() || j != position.getEndPosition()) {
                     if (direction.equals(DIRECTION.NORTH)) {
                         if ((j - n) >= 0) {
                             graph.addEdge(j, j - n);
@@ -80,25 +63,36 @@ public class Main {
                 }
             }
         }
+    }
+
+    private static void addValueToVertex(Graph graph){
+        int i = 0;
+
+        while (file.hasNextLine()){
+            for(String ch : file.nextLine().split(" ")){
+                graph.setValueToVertex(i,ch.trim().charAt(0));
+                i++;
+            }
+        }
+    }
+
+    private static void createGraphStructure(String fileName, Position position) throws IOException {
+        readFileToScanner(fileName);
+        Integer n = Integer.valueOf(file.nextLine().trim().split(" ")[0]);
+        Graph graph = new Graph(n * n);
+
+        addValueToVertex(graph);
+        addEdgesToGraph(graph,position,n);
+
         System.out.println(position.getStartPosition());
 
         System.out.println(position.getEndPosition());
 
         BreadthFirstPaths bfs = new BreadthFirstPaths(graph,position.getStartPosition());
 
-        //System.out.println(bfs.hasPathTo(position.getEndPosition()));
-        //System.out.println(bfs.pathTo(position.getEndPosition()));
-        System.out.println(graph.toDot());
-
-        /*for(int j = 0; j < graph.V();j++){
-            for(Integer v : graph.adj(j)){
-                System.out.printf("%d -> %d\n",j,v);
-            }
-
-            //System.out.printf("%d value %s \n", j, graph.getCodeFromVertex(j));
-        }*/
-
-        //digraph.printVertexes();
+        System.out.println(bfs.hasPathTo(position.getEndPosition()));
+        System.out.println(bfs.pathTo(position.getEndPosition()));
+        //System.out.println(graph.toDot());
     }
 
     private static Queue<DIRECTION> getNextDirectionBy(String vertexBinValue){
