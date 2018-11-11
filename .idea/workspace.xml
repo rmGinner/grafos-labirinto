@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5cbca0-8ea8-4924-8048-0bd749e4f550" name="Default" comment="Adjusts">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main$DIRECTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main$DIRECTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caso4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/caso4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/AdjMatrixGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Bag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstDirectedPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstDirectedPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/BreadthFirstPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Cycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Cycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstDirectedPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstDirectedPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DepthFirstOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Digraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Digraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DigraphGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/DirectedDFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/EdgeWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/EdgeWeightedGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/In.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/In.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ$HeapIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/IndexMinPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/KruskalMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/KruskalMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MapaMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ$HeapIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/MinPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Out.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Out.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/PrimMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/PrimMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/RecursiveGraphDFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/StdOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolDigraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolDigraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/SymbolGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Topological.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/Topological.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/UF.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/UF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/WebCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/grafos-labirinto/com/company/graphsapi/WebCrawler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,35 +53,38 @@
     <session id="-735506857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2907" />
+          <entry key="java" value="3239" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2907" />
+          <entry key="JAVA" value="3239" />
+          <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="7" />
-          <entry key="txt" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="8" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="7" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="8" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -131,31 +98,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="152">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#9060#9061#0" expanded="true" />
-                <element signature="e#9144#9145#0" expanded="true" />
+                <element signature="e#11406#11407#0" expanded="true" />
+                <element signature="e#11490#11491#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DirectedDFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -163,62 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caso4.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="e#2725#2726#0" expanded="true" />
-                <element signature="e#2758#2759#0" expanded="true" />
-                <element signature="e#2812#2813#0" expanded="true" />
-                <element signature="e#2847#2848#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2924">
-              <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstDirectedPaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/Bag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2567">
-              <caret line="160" selection-start-line="160" selection-end-line="160" />
-              <folding>
-                <element signature="e#4222#4223#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -250,7 +145,6 @@
       <list>
         <option value="$PROJECT_DIR$/caso50a.txt" />
         <option value="$PROJECT_DIR$/caso75a.txt" />
-        <option value="$PROJECT_DIR$/caso4.txt" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/AdjMatrixGraph.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Cycle.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java" />
@@ -261,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/com/company/graphsapi/Digraph.java" />
         <option value="$PROJECT_DIR$/caso25a.txt" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/caso4.txt" />
       </list>
     </option>
   </component>
@@ -270,7 +165,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -299,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541724503054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541894953664" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -407,6 +302,7 @@
       <workItem from="1541461933002" duration="2448000" />
       <workItem from="1541468439784" duration="2333000" />
       <workItem from="1541534178928" duration="2531000" />
+      <workItem from="1541890834503" duration="4302000" />
     </task>
     <task id="LOCAL-00001" summary="Adjusts">
       <created>1540831699318</created>
@@ -419,13 +315,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41277000" />
+    <option name="totallyTimeSpent" value="45816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,8 +329,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3262295" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3409836" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3262295" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34918034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -466,93 +361,79 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>178</line>
+          <line>62</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>194</line>
+          <line>66</line>
           <properties />
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>158</line>
+          <line>70</line>
           <properties />
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>224</line>
+          <line>74</line>
           <properties />
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>225</line>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>147</line>
+          <line>58</line>
           <properties />
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>148</line>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>207</line>
+          <line>73</line>
           <properties />
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>195</line>
+          <line>69</line>
           <properties />
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>201</line>
+          <line>61</line>
           <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>184</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>179</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>165</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>160</line>
-          <properties />
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>hexToBin(letters[i])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>letters.length - 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>(startLinePosition * Integer.valueOf(heightAndWidth[0].trim()))</expression-string>
         <language-id>JAVA</language-id>
@@ -584,17 +465,7 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hexToBin(letters[i])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>(hexToBin(letters[i]).charAt(0) &amp; N)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>String.valueOf(t - 'a' + 10).charAt(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -652,24 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java">
+    <entry file="file://$PROJECT_DIR$/caso25a.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DirectedDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -710,35 +567,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caso25a.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DirectedDFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="528">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/graphsapi/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="2157" selection-start-line="2157" selection-end-line="2157" />
+        <state relative-caret-position="99">
+          <caret line="2142" lean-forward="true" selection-start-line="2142" selection-end-line="2142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caso500a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caso4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="152">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9060#9061#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
+            <element signature="e#11406#11407#0" expanded="true" />
+            <element signature="e#11490#11491#0" expanded="true" />
           </folding>
         </state>
       </provider>

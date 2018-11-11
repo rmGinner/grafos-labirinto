@@ -27,7 +27,7 @@ public class Main {
      * Final point is in: line 25 - column 17
      * */
     public static void main(String[] args) throws IOException {
-        String fileName = "caso500a.txt";
+        String fileName = "caso4.txt";
 
 
         readFileToScanner(fileName);
@@ -86,9 +86,9 @@ public class Main {
 
         BreadthFirstPaths bfs = new BreadthFirstPaths(graph,position.getStartPosition());
 
-        System.out.println(bfs.hasPathTo(position.getEndPosition()));
-        System.out.println(bfs.pathTo(position.getEndPosition()));
-        //System.out.println(graph.toDot());
+        //System.out.println(bfs.hasPathTo(position.getEndPosition()));
+        //System.out.println(bfs.pathTo(position.getEndPosition()));
+        System.out.println(graph.toDot());
 
         /*for(int j = 0; j < graph.V();j++){
             for(Integer v : graph.adj(j)){
@@ -145,68 +145,111 @@ public class Main {
                     //Is first line?
                     if(line == 0) {
                         //Up bit
-                        if(hexToBin(letters[i]).charAt(0) == '0'){
-                            startLinePosition = line;
-                            startCharPosition = i;
+                        if (hexToBin(letters[i]).charAt(0) == '0') {
+                            if (Objects.isNull(startCharPosition)) {
+                                startLinePosition = line;
+                                startCharPosition = i;
+                            } else {
+                                endLinePosition = line;
+                                endCharPosition = i;
+                                break;
+                            }
+                        }
 
-//                            position.setStartPosition((line + 1) * (i + 1) - 1);
-
+                        if(i == 0){
+                            if(hexToBin(letters[i]).charAt(3) == '0'){
+                                if (Objects.isNull(startCharPosition)) {
+                                    startLinePosition = line;
+                                    startCharPosition = i;
+                                } else {
+                                    endLinePosition = line;
+                                    endCharPosition = i;
+                                    break;
+                                }
+                            }
+                        }else if(i == letters.length - 1){
+                            if(hexToBin(letters[i]).charAt(1) == '0'){
+                                if (Objects.isNull(startCharPosition)) {
+                                    startLinePosition = line;
+                                    startCharPosition = i;
+                                } else {
+                                    endLinePosition = line;
+                                    endCharPosition = i;
+                                    break;
+                                }
+                            }
                         }
                      //Is last line?
                     }else if(line == totalLines.intValue() - 1){
                         //Down bit
                         if(hexToBin(letters[i]).charAt(2) == '0'){
-                            if (!line.equals(startLinePosition)) {
+                            //if (!line.equals(startLinePosition)) {
                                 if (startCharPosition == null) {
                                     startLinePosition = line;
                                     startCharPosition = i;
-
-                                    //position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = i;
-
-//                                    position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
+                                    break;
                                 }
-                            }else if(Objects.nonNull(startCharPosition)){
+                            /*}else if(Objects.nonNull(startCharPosition)){
                                 endLinePosition = line;
                                 endCharPosition = i;
+                            }*/
+                        }
+                        if(i == 0){
+                            if(hexToBin(letters[i]).charAt(3) == '0'){
+                                if (Objects.isNull(startCharPosition)) {
+                                    startLinePosition = line;
+                                    startCharPosition = i;
+                                } else {
+                                    endLinePosition = line;
+                                    endCharPosition = i;
+                                    break;
+                                }
+                            }
+                        }else if(i == letters.length - 1){
+                            if(hexToBin(letters[i]).charAt(1) == '0'){
+                                if (Objects.isNull(startCharPosition)) {
+                                    startLinePosition = line;
+                                    startCharPosition = i;
+                                } else {
+                                    endLinePosition = line;
+                                    endCharPosition = i;
+                                    break;
+                                }
                             }
                         }
                     }else{
                         //Left bit
                         if(hexToBin(letters[0]).charAt(3) == '0'){
-                            if(!line.equals(startLinePosition)) {
-                                if (startCharPosition == null ) {
+                            if (!line.equals(startLinePosition) || !Integer.valueOf(0).equals(startCharPosition)) {
+                                if (startCharPosition == null) {
                                     startLinePosition = line;
                                     startCharPosition = 0;
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = 0;
+                                    break;
                                 }
-                            }else if(Objects.nonNull(startCharPosition)){
+                            }
+                            /*}else if(Objects.nonNull(startCharPosition)){
                                 endLinePosition = line;
                                 endCharPosition = 0;
-                            }
+                            }*/
                         }
 
                         //Right bit
                         if(hexToBin(letters[letters.length - 1]).charAt(1) == '0') {
-                            if (!line.equals(startLinePosition)) {
-                                if (startCharPosition == null && startLinePosition == null) {
+                            if (!line.equals(startLinePosition) || !Integer.valueOf(letters.length - 1).equals(startCharPosition)) {
+                                if (startCharPosition == null) {
                                     startLinePosition = line;
                                     startCharPosition = letters.length - 1;
-
-                                   // position.setStartPosition((line + 1) * (i + 1) - 1);
                                 } else {
                                     endLinePosition = line;
                                     endCharPosition = letters.length - 1;
-
-                                  //  position.setEndPosition(((line + 1) * (endCharPosition + 1)) - 1);
+                                    break;
                                 }
-                            }else if(Objects.nonNull(startCharPosition)){
-                                endLinePosition = line;
-                                endCharPosition = letters.length - 1;
                             }
                         }
                     }
