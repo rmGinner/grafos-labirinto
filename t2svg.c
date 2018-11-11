@@ -50,11 +50,11 @@ void process ( int w, int h ) {
         default: continue;
     }
 
-    if ( ( t & N ) == N ) svgline( c, l , c + 1, l);
-    if ( ( t & S ) == S ) svgline( c, l + 1, c + 1, l + 1);
-    if ( ( t & O ) == O ) svgline( c , l , c , l + 1);
-    if ( ( t & L ) == L ) svgline( c + 1, l , c + 1, l + 1);
-
+    if ( ( t & N ) == N ) svgline( c, l , c + 1, l);//Parede acima
+    if ( ( t & L ) == L ) svgline( c + 1, l , c + 1, l + 1); //Parede na direita ->
+    if ( ( t & S ) == S ) svgline( c, l + 1, c + 1, l + 1);//Parede abaixo \/
+    if ( ( t & O ) == O ) svgline( c , l , c , l + 1);//Parede na esquerda <-
+   
     c++;
     if ( c == w ) {
         c = 0;
