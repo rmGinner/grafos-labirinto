@@ -35,9 +35,9 @@ public class Main {
             Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(graph.getCodeFromVertex(j))));
 
             for(DIRECTION direction : directions){
-                if(j % n == 0 && DIRECTION.WEST.equals(direction)
-                        || (j % n - 1) == 24 && DIRECTION.EAST.equals(direction)
-                || j == position.getEndPosition()){
+                if((j % n == 0 && DIRECTION.WEST.equals(direction))
+                        || ((j % n - 1) == (n - 1) && DIRECTION.EAST.equals(direction))
+                || (j == position.getEndPosition())){
                     continue;
                 }
 
@@ -91,8 +91,6 @@ public class Main {
 
         System.out.println(bfs.hasPathTo(position.getEndPosition()));
         System.out.println(bfs.pathTo(position.getEndPosition()));
-
-        //System.out.println(graph.toDot());
     }
 
     private static Queue<DIRECTION> getNextDirectionBy(String vertexBinValue){
@@ -222,10 +220,6 @@ public class Main {
                                 break;
                             }
                         }
-                        /*}else if(Objects.nonNull(startCharPosition)){
-                            endLinePosition = line;
-                            endCharPosition = 0;
-                        }*/
                     }
 
                     //Right bit
