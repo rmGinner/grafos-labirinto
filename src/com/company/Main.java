@@ -22,7 +22,7 @@ public class Main {
     private enum DIRECTION{NORTH, EAST, SOUTH, WEST};
 
     public static void main(String[] args) throws IOException {
-        String fileName = "caso500a.txt";
+        String fileName = "caso400a.txt";
         Position position = new Position();
 
         readFileToScanner(fileName);
@@ -36,7 +36,7 @@ public class Main {
 
             for(DIRECTION direction : directions){
                 if((j % n == 0 && DIRECTION.WEST.equals(direction))
-                        || ((j % n - 1) == (n - 1) && DIRECTION.EAST.equals(direction))
+                        || (((j + 1) % n) == 0 && DIRECTION.EAST.equals(direction))
                 || (j == position.getEndPosition())){
                     continue;
                 }
@@ -91,6 +91,7 @@ public class Main {
 
         System.out.println(bfs.hasPathTo(position.getEndPosition()));
         System.out.println(bfs.pathTo(position.getEndPosition()));
+        //System.out.println(graph.toDot());
     }
 
     private static Queue<DIRECTION> getNextDirectionBy(String vertexBinValue){
