@@ -20,14 +20,9 @@ public class Main {
     private static Scanner file;
 
     private enum DIRECTION{NORTH, EAST, SOUTH, WEST};
-    /**
-     * For file "caso25a.txt"
-     *
-     * Start point is in: line 8 - column 0
-     * Final point is in: line 25 - column 17
-     * */
+
     public static void main(String[] args) throws IOException {
-        String fileName = "caso4.txt";
+        String fileName = "caso25a.txt";
         Position position = new Position();
 
         readFileToScanner(fileName);
@@ -40,7 +35,12 @@ public class Main {
             Queue<DIRECTION> directions = getNextDirectionBy(hexToBin(String.valueOf(graph.getCodeFromVertex(j))));
 
             for(DIRECTION direction : directions){
-                if(j != position.getEndPosition()) {
+                if(j % n == 0 && DIRECTION.WEST.equals(direction)
+                        || (j % n - 1) == 24 && DIRECTION.EAST.equals(direction)){
+                    continue;
+                }
+
+                //if(j != position.getEndPosition()) {
                     if (direction.equals(DIRECTION.NORTH)) {
                         if ((j - n) >= 0) {
                             graph.addEdge(j, j - n);
@@ -60,7 +60,7 @@ public class Main {
                     } else {
                         throw new IllegalArgumentException("Direção inválida.");
                     }
-                }
+               // }
             }
         }
     }
@@ -92,6 +92,7 @@ public class Main {
 
         System.out.println(bfs.hasPathTo(position.getEndPosition()));
         System.out.println(bfs.pathTo(position.getEndPosition()));
+
         //System.out.println(graph.toDot());
     }
 
@@ -127,19 +128,31 @@ public class Main {
         String[] letters;
         readFileToScanner(fileName);
 
-            Long totalLines = Files.newBufferedReader(Paths.get(fileName), Charset.forName("utf8")).lines().count() - 1;
+        Long totalLines = Files.newBufferedReader(Paths.get(fileName), Charset.forName("utf8")).lines().count() - 1;
 
-            String[] heightAndWidth = file.nextLine().split(" ");
+        String[] heightAndWidth = file.nextLine().split(" ");
 
-            while (file.hasNextLine()){
-                String stringLine = file.nextLine();
-                letters = stringLine.split(" ");
+        while (file.hasNextLine()){
+            String stringLine = file.nextLine();
+            letters = stringLine.split(" ");
 
-                for(int i = 0; i < letters.length; i++){
-                    //Is first line?
-                    if(line == 0) {
-                        //Up bit
-                        if (hexToBin(letters[i]).charAt(0) == '0') {
+            for(int i = 0; i < letters.length; i++){
+                //Is first line?
+                if(line == 0) {
+                    //Up bit
+                    if (hexToBin(letters[i]).charAt(0) == '0') {
+                        if (Objects.isNull(startCharPosition)) {
+                            startLinePosition = line;
+                            startCharPosition = i;
+                        } else {
+                            endLinePosition = line;
+                            endCharPosition = i;
+                            break;
+                        }
+                    }
+
+                    if(i == 0){
+                        if(hexToBin(letters[i]).charAt(3) == '0'){
                             if (Objects.isNull(startCharPosition)) {
                                 startLinePosition = line;
                                 startCharPosition = i;
@@ -149,117 +162,100 @@ public class Main {
                                 break;
                             }
                         }
-
-                        if(i == 0){
-                            if(hexToBin(letters[i]).charAt(3) == '0'){
-                                if (Objects.isNull(startCharPosition)) {
-                                    startLinePosition = line;
-                                    startCharPosition = i;
-                                } else {
-                                    endLinePosition = line;
-                                    endCharPosition = i;
-                                    break;
-                                }
-                            }
-                        }else if(i == letters.length - 1){
-                            if(hexToBin(letters[i]).charAt(1) == '0'){
-                                if (Objects.isNull(startCharPosition)) {
-                                    startLinePosition = line;
-                                    startCharPosition = i;
-                                } else {
-                                    endLinePosition = line;
-                                    endCharPosition = i;
-                                    break;
-                                }
-                            }
-                        }
-                     //Is last line?
-                    }else if(line == totalLines.intValue() - 1){
-                        //Down bit
-                        if(hexToBin(letters[i]).charAt(2) == '0'){
-                            //if (!line.equals(startLinePosition)) {
-                                if (startCharPosition == null) {
-                                    startLinePosition = line;
-                                    startCharPosition = i;
-                                } else {
-                                    endLinePosition = line;
-                                    endCharPosition = i;
-                                    break;
-                                }
-                            /*}else if(Objects.nonNull(startCharPosition)){
+                    }else if(i == letters.length - 1){
+                        if(hexToBin(letters[i]).charAt(1) == '0'){
+                            if (Objects.isNull(startCharPosition)) {
+                                startLinePosition = line;
+                                startCharPosition = i;
+                            } else {
                                 endLinePosition = line;
                                 endCharPosition = i;
-                            }*/
-                        }
-                        if(i == 0){
-                            if(hexToBin(letters[i]).charAt(3) == '0'){
-                                if (Objects.isNull(startCharPosition)) {
-                                    startLinePosition = line;
-                                    startCharPosition = i;
-                                } else {
-                                    endLinePosition = line;
-                                    endCharPosition = i;
-                                    break;
-                                }
-                            }
-                        }else if(i == letters.length - 1){
-                            if(hexToBin(letters[i]).charAt(1) == '0'){
-                                if (Objects.isNull(startCharPosition)) {
-                                    startLinePosition = line;
-                                    startCharPosition = i;
-                                } else {
-                                    endLinePosition = line;
-                                    endCharPosition = i;
-                                    break;
-                                }
-                            }
-                        }
-                    }else{
-                        //Left bit
-                        if(hexToBin(letters[0]).charAt(3) == '0'){
-                            if (!line.equals(startLinePosition) || !Integer.valueOf(0).equals(startCharPosition)) {
-                                if (startCharPosition == null) {
-                                    startLinePosition = line;
-                                    startCharPosition = 0;
-                                } else {
-                                    endLinePosition = line;
-                                    endCharPosition = 0;
-                                    break;
-                                }
-                            }
-                            /*}else if(Objects.nonNull(startCharPosition)){
-                                endLinePosition = line;
-                                endCharPosition = 0;
-                            }*/
-                        }
-
-                        //Right bit
-                        if(hexToBin(letters[letters.length - 1]).charAt(1) == '0') {
-                            if (!line.equals(startLinePosition) || !Integer.valueOf(letters.length - 1).equals(startCharPosition)) {
-                                if (startCharPosition == null) {
-                                    startLinePosition = line;
-                                    startCharPosition = letters.length - 1;
-                                } else {
-                                    endLinePosition = line;
-                                    endCharPosition = letters.length - 1;
-                                    break;
-                                }
+                                break;
                             }
                         }
                     }
+                 //Is last line?
+                }else if(line == totalLines.intValue() - 1){
+                    //Down bit
+                    if(hexToBin(letters[i]).charAt(2) == '0'){
+                        if (startCharPosition == null) {
+                            startLinePosition = line;
+                            startCharPosition = i;
+                        } else {
+                            endLinePosition = line;
+                            endCharPosition = i;
+                            break;
+                        }
+                    }
+                    if(i == 0){
+                        if(hexToBin(letters[i]).charAt(3) == '0'){
+                            if (Objects.isNull(startCharPosition)) {
+                                startLinePosition = line;
+                                startCharPosition = i;
+                            } else {
+                                endLinePosition = line;
+                                endCharPosition = i;
+                                break;
+                            }
+                        }
+                    }else if(i == letters.length - 1){
+                        if(hexToBin(letters[i]).charAt(1) == '0'){
+                            if (Objects.isNull(startCharPosition)) {
+                                startLinePosition = line;
+                                startCharPosition = i;
+                            } else {
+                                endLinePosition = line;
+                                endCharPosition = i;
+                                break;
+                            }
+                        }
+                    }
+                }else{
+                    //Left bit
+                    if(hexToBin(letters[0]).charAt(3) == '0'){
+                        if (!line.equals(startLinePosition) || !Integer.valueOf(0).equals(startCharPosition)) {
+                            if (startCharPosition == null) {
+                                startLinePosition = line;
+                                startCharPosition = 0;
+                            } else {
+                                endLinePosition = line;
+                                endCharPosition = 0;
+                                break;
+                            }
+                        }
+                        /*}else if(Objects.nonNull(startCharPosition)){
+                            endLinePosition = line;
+                            endCharPosition = 0;
+                        }*/
+                    }
 
-                    if(startLinePosition != null && endLinePosition != null && startCharPosition != null && endCharPosition != null){
-                        break;
+                    //Right bit
+                    if(hexToBin(letters[letters.length - 1]).charAt(1) == '0') {
+                        if (!line.equals(startLinePosition) || !Integer.valueOf(letters.length - 1).equals(startCharPosition)) {
+                            if (startCharPosition == null) {
+                                startLinePosition = line;
+                                startCharPosition = letters.length - 1;
+                            } else {
+                                endLinePosition = line;
+                                endCharPosition = letters.length - 1;
+                                break;
+                            }
+                        }
                     }
                 }
 
                 if(startLinePosition != null && endLinePosition != null && startCharPosition != null && endCharPosition != null){
                     break;
                 }
-                line++;
             }
 
-            position.setStartPosition((startLinePosition * Integer.valueOf(heightAndWidth[0].trim())) + startCharPosition);
+            if(startLinePosition != null && endLinePosition != null && startCharPosition != null && endCharPosition != null){
+                break;
+            }
+            line++;
+        }
+
+        position.setStartPosition((startLinePosition * Integer.valueOf(heightAndWidth[0].trim())) + startCharPosition);
         position.setEndPosition((endLinePosition * Integer.valueOf(heightAndWidth[0].trim())) + endCharPosition);
 
         System.out.println("Start Line Position: " + startLinePosition + "\n");
