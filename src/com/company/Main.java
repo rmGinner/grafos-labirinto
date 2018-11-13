@@ -22,7 +22,7 @@ public class Main {
     private enum DIRECTION{NORTH, EAST, SOUTH, WEST};
 
     public static void main(String[] args) throws IOException {
-        String fileName = "caso25a.txt";
+        String fileName = "caso500a.txt";
         Position position = new Position();
 
         readFileToScanner(fileName);
@@ -36,31 +36,30 @@ public class Main {
 
             for(DIRECTION direction : directions){
                 if(j % n == 0 && DIRECTION.WEST.equals(direction)
-                        || (j % n - 1) == 24 && DIRECTION.EAST.equals(direction)){
+                        || (j % n - 1) == 24 && DIRECTION.EAST.equals(direction)
+                || j == position.getEndPosition()){
                     continue;
                 }
 
-                //if(j != position.getEndPosition()) {
-                    if (direction.equals(DIRECTION.NORTH)) {
-                        if ((j - n) >= 0) {
-                            graph.addEdge(j, j - n);
-                        }
-                    } else if (direction.equals(DIRECTION.EAST)) {
-                        if ((j + 1) < (n * n)) {
-                            graph.addEdge(j, j + 1);
-                        }
-                    } else if (direction.equals(DIRECTION.SOUTH)) {
-                        if ((j + n) < (n * n)) {
-                            graph.addEdge(j, j + n);
-                        }
-                    } else if (direction.equals(DIRECTION.WEST)) {
-                        if ((j - 1) >= n) {
-                            graph.addEdge(j, j - 1);
-                        }
-                    } else {
-                        throw new IllegalArgumentException("Direção inválida.");
+                if (direction.equals(DIRECTION.NORTH)) {
+                    if ((j - n) >= 0) {
+                        graph.addEdge(j, j - n);
                     }
-               // }
+                } else if (direction.equals(DIRECTION.EAST)) {
+                    if ((j + 1) < (n * n)) {
+                        graph.addEdge(j, j + 1);
+                    }
+                } else if (direction.equals(DIRECTION.SOUTH)) {
+                    if ((j + n) < (n * n)) {
+                        graph.addEdge(j, j + n);
+                    }
+                } else if (direction.equals(DIRECTION.WEST)) {
+                    if ((j - 1) >= n) {
+                        graph.addEdge(j, j - 1);
+                    }
+                } else {
+                    throw new IllegalArgumentException("Direção inválida.");
+                }
             }
         }
     }
